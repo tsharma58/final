@@ -1,0 +1,263 @@
+.responsive {
+          padding: auto;
+          border-radius: 25px;
+          width: 100%;
+          max-width: 450px;
+          height: auto;
+        
+        }
+        img{
+          float:right;
+        }
+        .ski1{
+          text-align: left;
+          
+        
+        }
+        
+   
+        .ski2
+        {
+         
+          font-size: large;
+     
+        }
+        .skills{
+          text-align:center;
+          color:rgb(66, 42, 45)
+        }
+        
+        body {
+          margin: 0 auto;
+        }
+        
+        html {
+          box-sizing: border-box;
+        }
+        
+        .about-section {
+          padding: 50px;
+          text-align: center;
+         
+          color: white;
+          width: 100%;
+          height: 45vh;
+        text-align: left;
+         
+        ;
+        
+          background-color: #0d4e4e;
+          border-color: #bf8d90;
+          border-style: dotted;
+        }
+        .btns{
+         
+          background-color: lightgrey;
+        }
+        
+        .myskills {
+          background-color: #cfd2f5;
+          font-size:2rem;
+          color:#000000;
+        
+          
+        }
+        .container
+        {
+          background-color: #cfd2f5;
+          font-size:2rem;
+          color:#766dd5;
+        }
+        
+        .line {
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          font-style:italic;
+          font-variant: calc();
+          font-weight:normal;
+          font-size: 1.5rem;
+          color:#080101;
+        }
+        
+        .name {
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-style:calc();
+          font-size: 30px;
+          font-weight:bolder;
+          font-variant:var(rgb(104, 125, 52));
+          color:#000000;
+        
+        }
+        
+        
+        
+        .container {
+          padding: 0 16px;
+        }
+        
+        .title {
+          color: rgb(242, 200, 145);
+        }
+        
+        .button {
+          border: none;
+          outline: 2;
+          display: inline-block;
+          padding: 48px;
+          color: black;
+          background-color: white;
+          text-align: center;
+          cursor: pointer;
+          font-size: x-large;
+          border-radius: 12px;
+        }
+        
+        .buttonH {
+          border: none;
+          outline: 2;
+          display: inline-block;
+          padding: 48px;
+          color: black;
+          background-color: white;
+          text-align: center;
+          cursor: pointer;
+          font-size: x-large;
+          border-radius: 12px;
+        }
+        
+        .button1 {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 48px;
+          color: rgb(0, 0, 0);
+          background-color: rgb(255, 255, 255);
+          text-align: center;
+          font-size: x-large;
+          cursor: pointer;
+          border-radius: 12px;
+        }
+        
+        .button1:hover {
+          background-color: #834e4e;
+        }
+        .button:hover {
+          background-color:
+          #b1565c;
+        }
+        .buttonH:hover{
+          background-color:
+          #af5c61;
+        }
+        
+        
+        
+        
+        
+        
+        .buttonToHome:hover{
+          color:black;
+        }
+        
+        .information
+        { 
+          text-align: left;
+          font-size: larger;
+        }
+        
+        .me{
+          float: right;
+          font-size: large;
+        }
+        
+        .edu
+        {
+          text-align: center;
+        
+        }
+        .school
+        {
+          font-size: large;
+        }
+        .edu
+        {
+          background-color: slategrey;
+        height:20vh
+        }
+        
+        .ski{
+          font-size:40px;
+          text-transform: uppercase;
+          margin:0;
+          text-align: center;
+          background-color: antiquewhite;
+        }
+        .sk{
+          background-color: beige;
+          color: black;
+        }
+        .ski2
+        {
+          background-color: beige;
+          color: black;
+        }
+        
+        
+        
+        .text{
+         
+        
+          
+          background-color:blanchedalmond;
+          color:black;
+          font-weight: bold;
+          text-align: center;
+        }
+
+
+        .education-content {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          padding-bottom: 80px;
+      }
+      
+      .education-box {
+          width: 400px;
+          height: 150px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          padding: 15px;
+          margin: 30px;
+          background: #a7a363;
+          border-radius: 0.4em;
+      }
+      
+      .education-box:hover {
+          transform: scale(1.05);
+          transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+      }
+      
+      .education-box .uil {
+          font-size: 1.7rem;
+          color: #000000;
+          padding: 10px 18px;
+          border-radius: 50%;
+          border: 2px dashed;
+          border-color: #8a847f;
+      }
+      
+      .education-box h2 {
+          font-size: 1.1rem;
+          font-weight: 500;
+          margin: 0.5rem 0;
+          color: #000000;
+      }
+      
+      .education-box p {
+          font-size: 0.9rem;
+          color: rgb(0, 0, 0);
+      }
+        

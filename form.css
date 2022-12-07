@@ -1,0 +1,132 @@
+body {
+          background-color: #ffffff;
+        }
+        
+        
+        .Title1{
+          font-size: 2em;
+          font-weight: bold;
+        }
+        .Title2{
+          color: grey;
+        }
+        .in {
+          background-color: #ebebeb;
+          color: rgb(10, 10, 10);
+        }
+      
+        .name {
+          background-color: #ebebeb;
+          color: white;
+        }
+        .open-popup{
+          visibility:visible;
+          top:50%;
+          transform: translate
+        }
+        .buttonH {
+          margin: 30px auto;
+          padding: 10px;
+          size: 4rem;
+          font-size: larger;
+          width: 8rem;
+          border-radius: 5px;
+          border:#270e37;
+        }
+        
+        
+        .title{
+          display: block;
+          font-family: sans-serif;
+          margin: 10px auto 5px;
+          width: 300px;
+        }
+        .name:hover {
+          border-bottom: 5px solid #270e37;
+          height: 30px;
+          width: 380px;
+          transition: ease 0.5s;
+        }
+        .in:hover {
+          border-bottom: 5px solid #270e37;
+          height: 30px;
+          width: 380px;
+          transition: ease 0.5s;
+        }
+        .information{
+          font-size: 1.5rem;
+        }
+        .formEntry {
+          display: block;
+          margin: 30px auto;
+          min-width: 300px;
+          padding: 10px;
+          border-radius: 2px;
+          border: none;
+          transition: all 0.5s ease 0s;
+        }
+        .formEntry1 {
+          margin: 20px auto;
+          padding: 10px;
+          border-radius: 1px;
+          border: none;
+        }
+        .submit {
+          width: 200px;
+          font-size: 20px;
+        }
+        .buttonH:hover {
+          background-color: rgb(179, 34, 34);
+        }
+        .submit:hover {
+          background-color: rgb(179, 34, 34);
+        }
+        label{
+          padding: 0px 10px;
+        }
+        
+        textarea {
+          display: none;
+        }
+        nav {
+          display: flex;
+        }
+        
+        a {
+          width: 140px;
+        }
+        
+        .req_star {
+          color: red;
+        }
+
+.top {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  font-size: 16px;
+  transform: scale(0.8);
+  transition: 0.5s;
+  font-size: 1.5rem;
+}
+
+.top label{
+  display: block;
+  margin: 0 0 3px 0;
+}
+
+.top input[type=text] {
+  width: 100%;
+color: #1d1515;
+}
+
+input[type=radio]:checked~.top,
+input[type=checkbox]:checked~.top {
+
+  max-height: 100px;
+  padding: 10px 20px;
+  transform: scale(1);
+  overflow: visible;
+}
+        
+        

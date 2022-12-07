@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CONTACT ME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="form.css" />
+  <style>
+    h1{text-align: center;}
+  </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <form
+        id="appt-form"
+        class="new_observation"
+        method="POST"
+        action="https://httpbin.org/post"
+      >
+        <header>
+       
+          <h1 class="Title1">Contact Me</h>
+        </header>
+        <main>
+          <section>
+            
+            <div class="information">
+              <label for="name"
+                >Your Name <span class="req_star">*</span></label
+              >
+              <br />
+              <input
+                class="in formEntry"
+                id="ob_name"
+                type="text"
+                name="Person_name"
+                placeholder="Enter Name"
+                maxlength="200"
+                required
+              />
+            </div>
+
+            <div class="information">
+              <label for="E-mail"
+                >Email Address <span class="req_star">*</span></label
+              >
+              <br />
+              <input
+                class="in formEntry"
+                id="ob_desc"
+                type="text"
+                name="E-mail"
+                placeholder="abc123@gmail.com"
+                required
+              />
+            </div>
+
+          
+            <div class="information">
+              <label for="Address"
+                > Street Address <span class="req_star">*</span></label
+              >
+              <br />
+              <input
+                class="in formEntry"
+                id="ob_desc"
+                type="text"
+                name="Address"
+                placeholder="Apt no, Street"
+                required
+              />
+            </div>
+            <div class="information">
+              <label for="city"
+                > City <span class="req_star">*</span></label
+              >
+              <br />
+              <input
+                class="in formEntry"
+                type="text"
+                name="Address"
+                placeholder="Brampton"
+                required
+              />
+            </div>
+
+           
+            <div class="information">
+              <label for="provinces"
+                > Province <span class="req_star">*</span></label
+              >
+              <br />
+              <input
+                class="in formEntry"
+                list="province"
+                name="Address"
+                id="provinces"
+                autocomplete="provinces"
+                placeholder="Alberta"
+                required
+              />
+              <datalist id="province">
+                <option value="Alberta"></option>
+                <option value="British Columbia"></option>
+                <option value="Manitoba"></option>
+                <option value="New Brunswick"></option>
+                <option value="Newfoundland and Labrador."></option>
+                <option value="Northwest Territories."></option>
+                <option value="Nova Scotia"></option>
+                <option value="Nunavut"></option>
+             
+              </datalist>
+            </div >
+
+            <div class="information">
+              <label for="postal-code" class="form-label"
+                >Postal Code <span class="req_star">*</span>
+              </label>
+              <input
+                class="in formEntry"
+                type="text"
+                name="postal-code"
+                id="postal-code"
+                autocomplete="postal-code"
+                required
+                placeholder="A1B 2C3"
+              />
+            </div>
+
+
+            <div class="information">
+              <label for="purpose"
+                >About <span class="req_star">*</span></label
+              >
+              <br />
+             <div>
+              <input type="radio" name="option" id="option1" required>
+              <label for="Job Offer">Job Offer</label>
+              </div>
+        
+
+          <div>
+              <input type="radio" name="option" id="option2">
+              <label for="School">School</label>
+
+
+              </div>
+        
+
+          <div class="information">
+            <input type="radio" name="option" id="subbox">
+            <label for="Other">Other</label>
+
+            <div class="top">
+                <label for="Topic"></label>
+                <textarea name="topic" id="topic"  rows="5" 
+                    placeholder="Type your topic" class="top"
+                    data-require-pair="#options"></textarea>
+            </div>
+              </div>
+          </div>
+      </div>
+
+
+
+
+
+
+
+
+                <button
+                  class="submit formEntry1"
+                  type="submit"
+                  name="submit"
+                  id="submit"
+                  onclick="openPopup()"
+                >
+                  Submit
+                </button>
+                <!--<div class="popup" , id="popup">
+                  <h2>Thank you</h2>
+<p>Your details have been successfully uploaded.</p>  
+<button   ></button>-->
+           </div>
+                <nav>
+                  <button
+                    class="buttonH"
+                    onclick="window.location.href='index.html';"
+                  >
+               HOME
+                  </button>
+                </nav>
+              </div>
+            </div>
+          </section>
+        </main>
+      </form>
+    </div>
+    <script src="contact.js"></script>
+  </body>
+</html>
